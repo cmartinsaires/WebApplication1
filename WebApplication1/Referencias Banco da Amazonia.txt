@@ -1,0 +1,30 @@
+arrecadacao@bancoamazonia.com.br;      
+arrec.dados@bancoamazonia.com.br  
+breno.aguiar@bancoamazonia.com.br;  
+thomaz.melo@bancoamazonia.com.br;
+marta.portaL@bancoamazonia.com.br
+
+- Enviar no mínimo 3 (três) boletos com datas vencidas e a vencer;
+----------------------------------------------------------------------- 
+Nome dos Arquivos Remessa  
+
+VAN_AMZ_AAAAMMDD_CCCCCCCCC_CNAB240REM.SEQ 
+Onde: 
+VAN_AMZ_ - indicador de origem, manter informação fixa
+AAAA - Ano de geração do arquivo
+MM - mês de geração do arquivo
+DD - dia de geração do arquivo
+CCCCCCCCCC - código do cliente com 10 dígitos (informado pelo banco) 
+_CNAB240REM - indicador de remessa
+.SEQ - número da sequencia do arquivo naquele dia com 3 dígitos (exemplo: .001, .002, etc.) 
+Exemplo:
+ATP_AMZ_20150729_0123456789_CNAB240REM.001  
+VAN_AMZ_20150729_0123456789_CNAB240REM.001 / 
+VAN_AMZ_20150729_0123456789_CNAB240REM.002 /
+VAN_AMZ_20150730_0123456789_CNAB240REM.001 
+
+-----------------------------------------------------
+
+Arquivo Liquidações/Baixas PG 5
+Arquivo de Conciliação de Carteira - PG 6
+----------------------------------------------------
